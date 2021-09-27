@@ -1,0 +1,38 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+
+#text{
+  color: rgb(0, 255, 221) ;
+}
+
+.navigation{
+    display: flex ;
+    justify-content : space-between ;
+    align-items: center ;
+    background: yellowgreen ;
+    color: goldenrod ;
+    height: 90px ;
+    padding: 0 1rem ;
+}
+.navigationButton {
+  paddling: 10px ;
+  background: white ;
+  margin: 1rem ;
+  font-size: 15px ;
+  border: none ;
+  outline: 0 ;
+  cursor: pointer ;
+}
+
+.navigationButtonContainer > .navigationButton {
+  paddling: 10px ;
+  background: white ;
+  margin: 1rem ;
+  font-size: 15px ;
+  border: none ;
+  outline: 0 ;
+  cursor: pointer ;
+}
+
